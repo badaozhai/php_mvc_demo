@@ -4,15 +4,15 @@
 
 
 //导入组件
-require_once('..\application\lib\front.php');
-require_once('..\application\lib\icontroller.php');
-require_once('..\application\lib\view.php');
+require_once('lib\front.php');
+require_once('lib\icontroller.php');
+require_once('lib\view.php');
 
 //导入业务控制器
-require_once('..\application\controllers\index.php');
+require_once('controllers\index.php');
 
 //导入数据层
-require_once('..\application\models\person.php');
+require_once('models\person.php');
 
 
 //初始化前端控制器
